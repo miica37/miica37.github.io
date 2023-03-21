@@ -1,0 +1,346 @@
+/* You can add custom styles here. */
+
+// @import "plugins/numbered";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+body {
+    // background-color: #faf6f1;
+    // background-color: #efeeed;
+    font-family: 'Lato', 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+aside.book-menu div.book-menu-content {
+  // background-color: #efeeed;
+  font-size: 0.9rem;
+}
+
+.book-brand {
+    font-family: 'Apalu', 'Lato', 'Roboto', sans-serif;
+    font-size: 4rem;
+    // color: whitesmoke;
+}
+
+.book-page {
+    // box-shadow: -3px 0px 5px 1px rgba(0, 0, 0, 0.05);
+}
+
+.shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.round {
+  border-radius: 1rem;
+}
+
+img.block {
+  display:block;
+}
+
+.card-container {
+  // background-color: red;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 16rem;
+    border-radius: 5px; /* 5px rounded corners */
+    background: linear-gradient(160deg, rgba(255,255,255,1) 0%, rgba(199,200,244,1) 44%, rgba(134,231,209,0.5) 100%);
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.card-info {
+  // background-color: red;
+  // padding: 2px 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.card-info h4 {
+  text-align: center;
+  font-family: 'Apalu', 'Lato', 'Roboto', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin: 0;
+  padding: 1rem;
+}
+
+.card img {
+  width: 16rem;
+  border-radius: 5px 5px 0 0;
+}
+
+.card-links img {
+  width: 3rem;
+}
+
+/* The Image container */
+.img-hover-zoom {
+  height: 16rem; /* Modify this according to your need */
+  overflow: hidden; /* Removing this will break the effects */
+}
+
+/* Quick-zoom Container */
+.img-hover-zoom--quick-zoom img {
+  transform-origin: 50% 10%;
+  transition: transform 1s, filter 3s ease-in-out;
+  filter: brightness(100%);
+}
+
+/* The Transformation */
+.img-hover-zoom--quick-zoom:hover img {
+  transform: scale(1.3) rotate(5deg);
+  filter: brightness(110%);
+}
+
+
+/*`````````````````````````````
+    POWERBY
+`````````````````````````````*/
+
+.powerby {
+  color:rgba(186, 186, 186, 1);
+  font-size: 0.85em;
+  font-weight: 400;
+  line-height: 1.2rem;
+  margin-top: 2rem;
+}
+
+/*`````````````````````````````
+    HOME PAGE COLLAPSIBLE
+`````````````````````````````*/
+
+.wrap-collabsible {
+  margin-bottom: 1.2rem 0;
+}
+
+input[type='checkbox'] {
+  display: none;
+}
+
+.lbl-toggle {
+  display: block;
+  padding: 1rem;
+  cursor: pointer;
+  transition: all 0.25s ease-out;
+}
+
+.lbl-toggle:hover {
+  color: #44c0c9;
+}
+
+.lbl-toggle::before {
+  content: ' ';
+  display: inline-block;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid currentColor;
+  vertical-align: middle;
+  margin-right: .7rem;
+  transform: translateY(-2px);
+  transition: transform .2s ease-out;
+}
+
+.toggle:checked + .lbl-toggle::before {
+  transform: rotate(90deg) translateX(-3px);
+}
+
+.collapsible-content {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height .25s ease-in-out;
+}
+
+.toggle:checked + .lbl-toggle + .collapsible-content {
+  max-height: 100vh;
+}
+
+.toggle:checked + .lbl-toggle {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.collapsible-content .content-inner {
+  padding: .5rem 1rem;
+}
+
+.content-inner strong {
+  // color: hsla(0, 0%, 20%, 0.3);
+  display: block;
+  text-align: right;
+  font-weight: 300;
+  font-style: italic;
+  font-size: .8rem;
+}
+
+
+/*`````````````````````````````
+    POLL BUTTON
+`````````````````````````````*/
+
+.button-75 {
+  align-items: center;
+  background-image: linear-gradient(135deg, #8a90dd 40%, #86e7d1);
+  border: 0;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  font-family: "Codec cold",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  height: 54px;
+  justify-content: center;
+  letter-spacing: .4px;
+  line-height: 1;
+  max-width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin:auto;
+}
+
+.button-75:active {
+  outline: 0;
+}
+
+.button-75:hover {
+  outline: 0;
+}
+
+.button-75 a.text {
+  color: #fff;
+  transition: all 200ms;
+}
+
+.button-75:hover a {
+  transform: scale(.9);
+  opacity: .75;
+}
+
+@media screen and (max-width: 991px) {
+  .button-75 {
+    font-size: 15px;
+    height: 50px;
+  }
+
+  .button-75 a {
+    line-height: 50px;
+  }
+}
+
+
+/*`````````````````````````````
+    SALE
+`````````````````````````````*/
+.guess-who {
+  font-size: 1.3rem;
+}
+
+.party-hero {
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); 
+  text-align: center;
+  font-size: 3rem;
+  color: #fff;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+
+/*`````````````````````````````
+    CHARACTER FEATURES TABLE
+`````````````````````````````*/
+
+.div-table {
+    display: table;
+    width: 100%;
+    overflow: scroll;
+    // border-spacing: 2px;
+    // border-radius:4px;
+}
+
+.trow {
+    display: table-row;
+    height: 4rem;
+}
+
+.tcolumn {
+    display: table-cell;
+    vertical-align: top;
+    background-color: #fff;
+    padding: 10px 8px;
+    text-align: center;
+    border-top: 1px solid hsla(184, 55%, 53%, 0.4);
+}
+
+.tcolumn1 {
+    width: 240px;
+    color: #44c0c9;
+    font-size: 3rem;
+    letter-spacing: 0.3rem;
+}
+
+.tcolumn1b {
+  width: 240px;
+  color: #44c0c9;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  padding-top: 3rem;
+}
+
+.tcolumn4,
+.tcolumn5,
+.tcolumn6 {
+    width: 80px
+}
+
+div.trow div.key {
+  color: #44c0c9;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+div.trow div.key:before {
+  content: "✭";
+  margin-right: 1rem;
+  color: gold;
+}
+
+div.trow div.value1 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+div.value2 {
+  font-size: 0.8rem;
+}

@@ -1,7 +1,8 @@
 baseURL: http://miica37.github.io/
 languageCode: en-us
-title: Book of Rabbit Heart
+title: Rabbit Heart
 theme: hugo-book
+disqusShortname: https-miica37-github-io
 
 # Book configuration
 disablePathToLower: true
@@ -22,7 +23,7 @@ markup:
 # languages:
 #   en:
 #     languageName: English
-#     contentDir: content.en
+#     contentDir: content
 #     weight: 1
 #   ru:
 #     languageName: Russian
@@ -34,14 +35,21 @@ markup:
 #     weight: 3
 
 menu:
-  # before: []
+  before:
+   - name: "◈ Youtube Channel"
+     url: "https://www.youtube.com/@miica37/videos"
+     weight: 10
+   - name: "◈ Unreal Engine Marketplace"
+     url: "https://www.unrealengine.com/marketplace/en-US/profile/Rabbit+Heart"
+     weight: 20
+
   after:
-    - name: "Github"
-      url: "https://github.com/miica37/miica37.github.io"
+    - name: "✉ Contact"
+      url: "mailto:miicaneo@gmail.com"
       weight: 10
-    - name: "Hugo Themes"
-      url: "https://themes.gohugo.io/hugo-book/"
-      weight: 20
+    # - name: "Hugo Themes"
+    #   url: "https://themes.gohugo.io/hugo-book/"
+    #   weight: 20
 
 params:
   # (Optional, default light) Sets color theme: light, dark or auto.
@@ -68,7 +76,7 @@ params:
 
   # Set source repository location.
   # Used for 'Last Modified' and 'Edit this page' links.
-  BookRepo: https://github.com/miica37/miica37.github.io
+  #BookRepo: https://github.com/miica37/miica37.github.io
 
   # (Optional, default 'commit') Specifies commit portion of the link to the page's last modified
   # commit hash for 'doc' page type.
@@ -80,7 +88,7 @@ params:
   # Enable "Edit this page" links for 'doc' page type.
   # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
   # Edit path must point to root directory of repo.
-  BookEditPath: edit/main/exampleSite
+  #BookEditPath: edit/main/exampleSite
 
   # Configure the date format used on the pages
   # - In git information
@@ -90,7 +98,7 @@ params:
   # (Optional, default true) Enables search function with flexsearch,
   # Index is built on fly, therefore it might slowdown your website.
   # Configuration for indexing can be adjusted in i18n folder per language.
-  BookSearch: true
+  BookSearch: false
 
   # (Optional, default true) Enables comments template on pages
   # By default partals/docs/comments.html includes Disqus template
