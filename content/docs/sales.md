@@ -2,6 +2,7 @@
 title: 🔥 Sale!
 weight: 101
 bookToc: false
+BookComments: true
 ---
 
 {{< columns >}}

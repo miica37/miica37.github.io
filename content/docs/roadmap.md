@@ -2,6 +2,7 @@
 title: 🗺 Roadmap
 weight: 100
 bookToc: false
+BookComments: true
 ---
 
 # Characters Roadmap 2023
