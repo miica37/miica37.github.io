@@ -9,15 +9,15 @@ BookComments: true
 
 ## Sales Poll
 
-Every month or so there will be a sale event at Epic Marketplace where Publisher can select their products to put on sale (from 30%, 50% up to 70%! off).
+Every month or so there will be a sale event at Epic Marketplace where Publisher offers some of their products to put on sale (from **30%**, **50%** up to **70%**! off).
 
-If you like to save money on my characters, vote for the character you would like to see on the next sale!
+If you would like to save some money on my characters, go vote for the character you would like to see on the next sale!
 
 <--->
 
 <p>&nbsp;</p>
 
-<button class="button-75" role="button"><a class="text" href="https://poll.ly/TDuJzw3599YBwt3E7teS" target="_blank">Go Visit Poll</a></button>
+<button class="button-75" role="button"><a class="text" href="https://poll.ly/voMVcDlAJwPSRfiofNli" target="_blank">Go Visit Poll</a></button>
 
 {{< /columns >}}
 

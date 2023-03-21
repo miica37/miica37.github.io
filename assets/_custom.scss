@@ -2,28 +2,32 @@
 
 // @import "plugins/numbered";
 
+
+/*`````````````````````````````
+    VARIABLES
+`````````````````````````````*/
+:root {
+  --HERO-COLOR: #44c0c9;
+}
+
+
+/*`````````````````````````````
+    MAIN
+`````````````````````````````*/
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
 body {
-    // background-color: #faf6f1;
-    // background-color: #efeeed;
     font-family: 'Lato', 'Roboto', sans-serif;
     font-size: 1rem;
 }
 
 aside.book-menu div.book-menu-content {
-  // background-color: #efeeed;
   font-size: 0.9rem;
 }
 
 .book-brand {
     font-family: 'Apalu', 'Lato', 'Roboto', sans-serif;
     font-size: 4rem;
-    // color: whitesmoke;
-}
-
-.book-page {
-    // box-shadow: -3px 0px 5px 1px rgba(0, 0, 0, 0.05);
 }
 
 .shadow {
@@ -44,7 +48,6 @@ img.block {
 `````````````````````````````*/
 
 .card-container {
-  // background-color: red;
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
@@ -154,7 +157,7 @@ img.block {
 }
 
 /*`````````````````````````````
-    HOME PAGE COLLAPSIBLE
+    COLLAPSIBLE
 `````````````````````````````*/
 
 .wrap-collabsible {
@@ -173,7 +176,7 @@ input[type='checkbox'] {
 }
 
 .lbl-toggle:hover {
-  color: #44c0c9;
+  color: var(--HERO-COLOR);
 }
 
 .lbl-toggle::before {
@@ -360,7 +363,7 @@ input[type='checkbox'] {
 }
 
 div.trow div.key {
-  color: #44c0c9;
+  color: var(--HERO-COLOR);
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 0.1rem;
