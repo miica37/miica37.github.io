@@ -31,6 +31,12 @@
         <div class="card">
           <div class="img-hover-zoom img-hover-zoom--quick-zoom">
             <a href="{{ .link }}"><img src="{{ .image }}" alt="{{ .title }}"></a>
+            {{ if .newRelease }}
+              <div class="new-release">New Release!</div>
+            {{ end }}
+            {{ if .newUpdate }}
+              <div class="new-update">New Update!</div>
+            {{ end }}
           </div>
           <div class="card-info">
             <h4><b>{{ .title }}</b></h4>

@@ -9,7 +9,7 @@ BookComments: true
 
 ## Disqus
 
-This comments section is powered by [Disqus](https://disqus.com/). 
+This comments section is powered by [Disqus](https://disqus.com/).
 
 <--->
 
