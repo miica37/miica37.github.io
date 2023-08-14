@@ -3,6 +3,7 @@ title: Characters General Infos
 weight: 2
 bookToc: true
 bookCollapseSection: true
+draft: true
 ---
 
 # General Informations
