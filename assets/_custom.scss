@@ -14,20 +14,23 @@
 /*`````````````````````````````
     MAIN
 `````````````````````````````*/
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Roboto+Slab:wght@300;400;700;900&display=swap');
+
+body {
+  background-color: #ededee;
+}
+
+main {
+  background-color: #fff;
+}
+
+aside.book-menu {
+  --body-background:#ededee;
+}
 
 body {
     font-family: 'Lato', 'Roboto', sans-serif;
     font-size: 1rem;
-}
-
-aside.book-menu div.book-menu-content {
-  font-size: 0.9rem;
-}
-
-.book-brand {
-    font-family: 'Apalu', 'Lato', 'Roboto', sans-serif;
-    font-size: 4rem;
 }
 
 .shadow {
@@ -42,6 +45,60 @@ img.block {
   display:block;
 }
 
+h1, h2, h3 {
+  // font-family: Roboto Slab;
+  // font-weight: 900;
+}
+
+h1 {
+  font-size: 2.7em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  // padding-left: 2em;
+  // padding-right: 2em;
+  // text-transform: uppercase;
+  // letter-spacing: .1em;
+}
+
+h2 {
+  font-size: 2em;
+  // font-family: Roboto Slab,ff-tisa-web-pro,Georgia,Arial,sans-serif;
+}
+
+h3 {
+  font-size: 1.4em;
+}
+
+/*`````````````````````````````
+    SIDE MENU
+`````````````````````````````*/
+
+div.book-menu-content a.active {
+  color: #55a5d9;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+aside.book-menu div.book-menu-content {
+  font-size: 0.9rem;
+}
+
+.book-brand {
+  color: #fff;
+  font-family: 'Apalu', 'Lato', 'Roboto', sans-serif;
+  font-size: 4rem;
+  text-shadow: 2px 2px #d7d7d7;
+}
+
+div.book-menu-content nav ul li {
+  margin-top: 1rem;
+}
+
+div.book-menu-content nav ul li ul li {
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+}
 
 /*`````````````````````````````
     HOMEPAGE CHARACTER CARD
@@ -142,7 +199,6 @@ img.block {
   font-weight: 700;
   font-size: 0.8rem;
 }
-
 
 /*`````````````````````````````
     POWERBY
@@ -285,7 +341,6 @@ input[type='checkbox'] {
   }
 }
 
-
 /*`````````````````````````````
     SALE
 `````````````````````````````*/
@@ -312,7 +367,6 @@ input[type='checkbox'] {
     text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
   }
 }
-
 
 /*`````````````````````````````
     CHARACTER FEATURES TABLE
@@ -383,28 +437,6 @@ div.trow div.value1 {
 div.value2 {
   font-size: 0.8rem;
 }
-
-
-
-
-/*`````````````````````````````
-    CHARACTER FEATURES TABLE
-`````````````````````````````*/
-
-h1 {
-  // color: #FFF;
-  // background-color: #44c0c9b0;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  padding-left: 2em;
-  padding-right: 2em;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: .2em;
-}
-
-
 
 /*`````````````````````````````
     ADDITIONAL BONES

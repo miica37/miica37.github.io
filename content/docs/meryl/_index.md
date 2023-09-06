@@ -5,8 +5,27 @@ bookToc: true
 draft: false
 ---
 
+Meryl Documentation
+====================
+
+<hr style="border: 1px solid #44c0c9;">
+
+> Documentation is still working in progress but currently is having a very low priority...
+
+You may refer to some of the [old documentation at readthedocs.org](https://unreal-meryl.readthedocs.io/en/latest/updates-log.html) but many of it are changed in the 2023 update.
+
+---
+
+Deprecated Features that are found in Ver2
+-------------------------------------------
+
+* Handcrafted LODs (too time consuming)
+* Master Cloth Material (a bit complicate to setup and since I haven't seen any other characters doing this, I think it's safe to skip this for now, I will see if I can bring back this feature in the future)
+  
 
 <div class="bones">
+
+---
 
 Additional Bones
 --------------------
