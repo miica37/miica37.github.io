@@ -16,16 +16,19 @@ You may refer to some of the [old documentation at readthedocs.org](https://unre
 
 ---
 
-Deprecated Features that are found in Ver2
--------------------------------------------
+<br/>
 
-* Handcrafted LODs (too time consuming)
-* Master Cloth Material (a bit complicate to setup and since I haven't seen any other characters doing this, I think it's safe to skip this for now, I will see if I can bring back this feature in the future)
-  
+Removed Features
+-----------------
 
-<div class="bones">
+* Handcrafted LODs (very time consuming; I think Unreal is able to generate LOD which might be option and I need to check how to do this)
+* Master Cloth Material (I will see if it's possible to bring this back)
 
 ---
+
+<br/>
+
+<div class="bones">
 
 Additional Bones
 --------------------

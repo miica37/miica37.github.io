@@ -15,7 +15,7 @@ Change Log
 
 `2023-09-06`
 
- * Added back the previous face based on feedback. There are two new faces which are named '**1b**' and '**1c**'. **1c** is the previous face, while **1b** is a half way blend between the previous face (from 2022) and the new face (2023).
+ * Added back the old version of the face model based on feedback. There are two new face model which are named '**1b**' and '**1c**'. **1c** is the previous face, while **1b** is a half way blend between the previous face (from 2022) and the new face (2023).
   
   ![Three faces side by side for comparison](../img/changelog/2023-09-06/three-faces.jpg)
   
@@ -33,11 +33,13 @@ Change Log
 
 ---
 
+<br/>
+
 ### Meryl 3.0
 
 `2023-08-14`
 
-* Changed the face
+* Changed the face model.
 * Added a new outfit, a new hairstyle and a shorter magic staff.
 
   ![New Outfit](../img/changelog/2023-08-14/new-outfit.jpg)
@@ -49,6 +51,8 @@ Change Log
 * plus many others update and changes...
 
 ---
+
+<br/>
 
 ### Meryl 2.0
 

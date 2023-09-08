@@ -1,6 +1,6 @@
-public/*
-resources/*
-exampleSite/public/*
+public/
+resources/
+exampleSite/public/
 .DS_Store
 .backup
 *.psd
