@@ -4,6 +4,11 @@ type: docs
 bookToc: false
 BookComments: false
 cards:
+- title: Shenya
+  image: img/shenya-cover.jpg
+  link: /docs/shenya/
+  ue: https://www.unrealengine.com/marketplace/slug/dd0822fc2ca84cbfb4c5eb72bb21d3b2
+  # newRelease: true
 - title: Meryl
   image: img/meryl-cover.jpg
   link: /docs/meryl/
@@ -18,12 +23,6 @@ cards:
   image: img/charles-cover.jpg
   link: /docs/charles/
   ue: https://www.google.com/
-- title: Shenya
-  image: img/shenya-cover.jpg
-  link: /docs/shenya/
-  ue: https://www.unrealengine.com/marketplace/slug/dd0822fc2ca84cbfb4c5eb72bb21d3b2
-  # newRelease: true
-
 ---
 
 

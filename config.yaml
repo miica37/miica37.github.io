@@ -13,6 +13,10 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+    parser:
+      unsafe: true
+      attribute:
+        block: true
   tableOfContents:
     startLevel: 1
 

@@ -10,11 +10,12 @@
   --HERO-COLOR: #44c0c9;
 }
 
-
 /*`````````````````````````````
     MAIN
 `````````````````````````````*/
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Roboto+Slab:wght@300;400;700;900&display=swap');
+@import 'iconfont';
+@import 'admonition';
 
 body {
   background-color: #ededee;
@@ -41,32 +42,38 @@ body {
   border-radius: 1rem;
 }
 
+img,
 img.block {
   display:block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1, h2, h3 {
-  // font-family: Roboto Slab;
-  // font-weight: 900;
+  font-family: Roboto Slab;
+  font-weight: 900;
 }
 
 h1 {
   font-size: 2.7em;
   padding-top: 1em;
-  padding-bottom: 1em;
-  // padding-left: 2em;
-  // padding-right: 2em;
-  // text-transform: uppercase;
-  // letter-spacing: .1em;
 }
 
-h2 {
-  font-size: 2em;
+.markdown h2 {
+  font-size: 1.5em;
+  font-weight: 900;
   // font-family: Roboto Slab,ff-tisa-web-pro,Georgia,Arial,sans-serif;
 }
 
 h3 {
   font-size: 1.4em;
+}
+
+span.object {
+  color: #2980b9;
+  font-size: 0.9em;
+  font-weight: bold;
+  padding: 3px;
 }
 
 /*`````````````````````````````
@@ -441,12 +448,9 @@ div.value2 {
 /*`````````````````````````````
     ADDITIONAL BONES
 `````````````````````````````*/
+.bones sup,
 .bones sub {
-  color:red;
-  font-weight: bold;
-}
-
-.bones sup {
-  color: orange;
+  color:#19c39a;
+  font-size: 0.9em;
   font-weight: bold;
 }
