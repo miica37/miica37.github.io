@@ -102,12 +102,14 @@ In the naming convention below, I will use this format: <sub>SC_01</sub><sup>(5)
 
 ### KawaiiPhysics
 
-{{% admonition info "Youtube Video" false %}}
-<!-- {{< youtube w7Ft2ymGmfc >}} -->
+[KawaiiPhysics](https://github.com/pafuhana1213/KawaiiPhysics/) is simple fake Physics for UnrealEngine4 & 5.
+
+{{% admonition info "Youtube Video: Using KawaiiPhysics with Rabbit Heart Character Shenya" false %}}
+{{< youtube HkaO96Ox8yg >}}
 {{% /admonition %}}
 
-{{% admonition info "Anim Blueprint Node Paste" false %}}
-Shenya KawaiiPhysics Anim Blueprint Node Paste: <https://gist.github.com/miica37/1346661ab0e1d3ec942a19e687462c0e>
+{{% admonition info "Anim Blueprint Nodes Paste" false %}}
+Shenya KawaiiPhysics Anim Blueprint Nodes Paste: <https://gist.github.com/miica37/1346661ab0e1d3ec942a19e687462c0e>
 {{% /admonition %}}
 
 To use Dynamic meshes with KawaiiPhysics:
@@ -142,3 +144,10 @@ Example of the node graph:
 
 ![ABP KawaiiPhysics Nodes](../img/dynamic-meshes/abp-kawaiiphysics-nodes.jpg)
 
+<br/>
+
+### SPCRJointDynamics
+
+[SPCRJointDynamics for UE4](https://github.com/SPARK-inc/SPCRJointDynamicsUE4) is "Real looking cloth physics engine for Unreal" (from their github description).
+
+I haven't tried using SPCRJointDynamics on Shenya but this plugin is specifically for cloths, where each joint chain can be linked to the one beside it so they constraint each other (compared to KawaiiPhysics where each joint chain are independent from each other and move independently), so you can try this on the Dynamic Jacket or the hairs.

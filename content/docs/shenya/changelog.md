@@ -14,15 +14,25 @@ Change Log
 
 `2023-10-17`
 
-* Changed the face model.
-
-* Removed Dirt Option.
-
+* New videos:
+  * [UE Casual Female - Shenya Showcase](https://youtu.be/OfM1V1eI1jI)
+  * [UE Casual Female - Shenya Asset Overview](https://youtu.be/nUcbepp6P_k)
+  * [Using Kawaii Physics with Rabbit Heart Character Shenya in Unreal Engine 5](https://youtu.be/HkaO96Ox8yg)
+* Changed the Face model and Update facial blendshapes
+* Lengthen the arms
+* Update Face and Body textures
+* Update body skinning
+* Modify some of the materials
+* Added Design material. See it in action in [this video](https://www.youtube.com/watch?v=nUcbepp6P_k&t=318s)
+* Rework 2 existing hairs and added two new hairs
+* New Hairs are using new hair textures. **Previous 2 hairs and the old hair textures are removed.**
+* Added New Mesh Accessory1 and Baseball Bat
+* Added Dynamic Hair 1,2,3,4 and Dynamic Jacket. **Old Dynamic Meshes (Hair2 and Jacket) with their setup are also removed.**
+* Added Tpose and some other poses
+* [-] **Removed Dirt Option.**
 * New Preview level
 
   ![New Outfit](../img/changelog/2023-10-17/new-preview-level.jpg)
-
-* plus many others update and changes...
 
 ---
 

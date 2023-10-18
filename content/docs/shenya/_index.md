@@ -12,7 +12,6 @@ Shenya Documentation
 
 <hr style="border: 1px solid #44c0c9;">
 
-
 {{% admonition note "Note" false %}}
 Documentation is still working in progress (currently is having a very low priority but I will try to spent more time on this)...
 {{% /admonition %}}
@@ -24,12 +23,28 @@ The [Old Shenya documentation at readthedocs.org](https://unreal-shenya.readthed
 
 ---
 
+{{% admonition type="info" title="Youtube Videos" details="true" %}}
+{{< youtube OfM1V1eI1jI >}}
+<br/>
+{{< youtube nUcbepp6P_k >}}
+<br/>
+{{< youtube HkaO96Ox8yg >}}
+{{% /admonition %}}
+
 <br/>
 
 Materials
 --------------------
 
 ### Design Material
+
+{{% admonition info "Skip to 5:18 in the video below" false %}}
+
+or click here [UE Casual Female - Shenya Asset Overview](https://www.youtube.com/watch?v=nUcbepp6P_k&t=318s)
+
+{{< youtube nUcbepp6P_k >}}
+{{% /admonition %}}
+
 The master materials with "_Design" in their names allows you to overlay a design image on top of base color texture.
 
 ![Design Master Material in Content Folder](img/designs/design-master-material-in-content-folder.jpg)
