@@ -19,6 +19,8 @@
         {{ template "header" . }} <!-- Mobile layout header -->
       </header>
 
+      {{ partial "docs/banner" . }}
+
       {{ partial "docs/inject/content-before" . }}
 
       <h1>Welcome</h1>
@@ -104,8 +106,6 @@
   </div>
   {{ end }}
 {{ end }}
-
-
 
 {{ define "main" }}
   <article class="markdown">

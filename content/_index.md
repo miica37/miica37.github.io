@@ -25,7 +25,6 @@ cards:
   ue: https://www.google.com/
 ---
 
-
 <!-- <div class="wrap-collabsible">
   <input id="collapsible" class="toggle" type="checkbox">
   <label for="collapsible" class="lbl-toggle">Updates</label>

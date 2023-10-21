@@ -14,6 +14,7 @@ Change Log
 
 `2023-10-17`
 
+* Price Changed from $39.99 to $79.99
 * New videos:
   * [UE Casual Female - Shenya Showcase](https://youtu.be/OfM1V1eI1jI)
   * [UE Casual Female - Shenya Asset Overview](https://youtu.be/nUcbepp6P_k)
