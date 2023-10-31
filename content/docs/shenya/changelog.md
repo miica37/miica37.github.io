@@ -10,9 +10,33 @@ Change Log
 
 <hr style="border: 1px solid #44c0c9;">
 
+### Shenya 3.0.1
+
+`2023-10-31`
+
+* Some minor update.
+
+{{% admonition info "Just a note" %}}
+There might be some unintended modification to the files during works for Cloth Pack1. This update shouldn't affect anything if you already using it but let me know if something got broken.
+{{% /admonition %}}
+
+* Some body parts added for ***Cloth Pack1***:
+  * SK_Shenya_BP_Arms_for_tshirt
+  * SK_Shenya_BP_Chest_for_buttonup
+  * SK_Shenya_BP_Head_Chesttop
+  * SK_Shenya_BP_Middle_Torso
+  * SK_Shenya_BP_Torso_for_croptop
+
+* Modified MA_Generic_Tint to add one more Color4 for tint, it uses the Black area, although this shouldn't be too useful for existing materials. It's particularly used for a shoe in Cloth Pack1 because I wanted to change the color of a part outside of the RGB Channel. (Note to self: probably can also use the alpha channel)
+
+* Added **Normal Multiplier** (Basic Parameters) to some of the master material, to tweak the strength of the normal map.
+
+* Reduced the Maximum Texture Size for TeethTongue to 512 (Default imported is 2048).
+
+
 ### Shenya 3.0
 
-`2023-10-17`
+`2023-10-18`
 
 * Price Changed from $39.99 to $79.99
 * New videos:
@@ -30,7 +54,7 @@ Change Log
 * Added New Mesh Accessory1 and Baseball Bat
 * Added Dynamic Hair 1,2,3,4 and Dynamic Jacket. **Old Dynamic Meshes (Hair2 and Jacket) with their setup are also removed.**
 * Added Tpose and some other poses
-* [-] **Removed Dirt Option.**
+* **[Removed] Dirt Option.**
 * New Preview level
 
   ![New Outfit](../img/changelog/2023-10-17/new-preview-level.jpg)
