@@ -145,6 +145,6 @@ Change Log
 
 ### Cloth Pack1 1.0
 
-`2023-11-11`
+`2023-11-01`
 
 First Release
