@@ -59,19 +59,8 @@ Shenya comes with some designs that you can use, but of course you can import yo
 
 #### Credits to the Design Textures
 
-1. The birds image (Scientific name for the birds: Thalurania Glaucopis) is obtained from Flickr but I lost track of the source. I then found the same image at WikiMedia Commons.
+Please see [Image Credits](./image-credits.md).
 
-> All media files on Wikimedia Commons can be used by anyone, including commercially and each media file has information about which license it uses.
-
-<https://commons.wikimedia.org/wiki/File:Histoirenaturell00muls_0111.jpg>
-
-2. The Astronaut and Rabbit Design are from Pixabay
-
-[Image by ANDRI TEGAR MAHARDIKA from Pixabay](https://pixabay.com/vectors/astronaut-night-sky-star-7059915/)
-
-[Image by Bellinon from Pixabay](https://pixabay.com/vectors/rabbit-heart-bunny-animal-pet-3075088/)
-
-3. The Shapes Designs are created by me in Inkscape.
-
+\* The Shapes Designs are created by me in Inkscape.
 
 <div class="bones">

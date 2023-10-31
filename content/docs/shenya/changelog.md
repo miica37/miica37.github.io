@@ -1,6 +1,6 @@
 ---
-title: "└ Change Log"
-weight: 20
+title: "└ 📋 Change Log"
+weight: 200
 bookToc: true
 draft: false
 ---
