@@ -31,6 +31,23 @@ This cloth pack only works with Shenya. It wouldn't work with any other characte
 
 <br/>
 
+Adding Cloth Pack1 to Shenya
+----------------------------
+
+When you add Cloth Pack1 to Project that already has Shenya, you will get a Overwrite Files prompt.
+
+![Overwrite Files](../img/cloth-pack1/overwrite-files.jpg)
+
+It doesn't matter whether you replace the files or not so either "Yes" or "Cancel" is fine.
+
+The Cloth Pack1 will be inside the same folder as Shenya, they share the same Meshes, Materials and Textures folder. You can then start using the cloth just like Shenya's other cloths.
+
+{{% admonition note "Note" false %}}
+If you first add Cloth Pack1 to your project, and then adding Shenya second. It's the same, just make sure you have the \****most recent update***\* to both package. The duplicate files should be the exact same files across both package.
+{{% /admonition %}}
+
+<br/>
+
 Morph Targets
 -------------
 In order to fit different tops and bottoms together, initially, I was exporting a different mesh for each variation that I can find. For example, to fit T-Shirt to Skirt, I created a new T-Shirt mesh with its shape adjusted to fir the skirts. Things look good until I start working on creating fit shapes for button up. Because now besides fitting it to the skirt, jeans and short pants, I also need to fit it to the bag and scarf. If you can imaging, the combination is something like this:
