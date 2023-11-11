@@ -1,5 +1,5 @@
 ---
-title: "└ Cloth Pack1"
+title: "└ 👗 Cloth Pack1"
 weight: 11
 bookToc: true
 draft: false

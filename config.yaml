@@ -46,6 +46,9 @@ menu:
    - name: "◈ Unreal Engine Marketplace"
      url: "https://www.unrealengine.com/marketplace/en-US/profile/Rabbit+Heart"
      weight: 20
+   - name: "❗ Report Issues (Github)"
+     url: "https://github.com/miica37/Rabbit-Heart-Characters/issues"
+     weight: 30
 
   after:
     - name: "✉ Contact"

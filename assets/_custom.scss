@@ -80,11 +80,78 @@ h1 {
 }
 
 span.object {
+  font-family: monospace;
   color: #2980b9;
-  font-size: 0.9em;
-  font-weight: bold;
+  font-size: 1.1em;
+  font-weight: 900;
   padding: 3px;
+  // border: 1px solid #2980b9;
+  // border-radius: 0.5em;
 }
+
+span.path {
+  font-family: monospace;
+  background-color: #ffe894;
+  color: #cc5544;
+  font-size: 0.9em;
+  font-weight: 900;
+  padding: 3px;
+  border: 1px solid #f1d04c;
+  border-radius: 0.5em;
+}
+
+.markdown code {
+  background-color: #445566;
+  color: #fff;
+  padding: 0.4em;
+  // font-weight: bold;
+}
+
+/*`````````````````````````````
+    Quote
+`````````````````````````````*/
+div.github-section {
+  background-color: #f6f8fa;
+  border-radius: 15px;
+}
+
+.quote {
+  position: relative;
+  letter-spacing: .03em;
+  margin-bottom: .5rem;
+  
+  &:before {
+      content: "“";
+      position: absolute;
+      left: -.7em;
+  }
+  
+  &:after {
+      content: "”";
+      margin-right: -1rem;
+  }
+}
+
+.quote-container {
+  font-family: 'EB Garamond';
+  font-size: 1.2rem;
+  margin: 2.5rem auto 0;
+  width: 30em;
+  // border-bottom: 2px dotted #C6D1BF;
+  padding-bottom: .5rem;
+}
+
+.quote-highlight {
+  color: #D24335;
+}
+
+.quote-author {
+  font-family: 'Open Sans Condensed';
+  font-size: .8rem;
+  text-align: right;
+  font-weight: 300;
+}
+
 
 /*`````````````````````````````
     SIDE MENU

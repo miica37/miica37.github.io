@@ -1,23 +1,20 @@
 ---
-title: "└ Dynamic Meshes & their Additional Bones"
+title: "└ 🦴 Dynamic Meshes & their Additional Bones"
 weight: 20
 bookToc: true
 draft: false
 ---
 
-<div class="bones">
+Dynamic Meshes & their Additional Bones
+=======================================
 
-Dynamic Meshes
---------------------
-Dynamic Meshes are meshes that are added with additional bones for the purpose of using the bones for dynamic simulations (either with physics assets, Anim Dynamics node, or by plugins like [KawaiiPhysics](https://github.com/pafuhana1213/KawaiiPhysics/)). They do not share the main Shenya skeleton that is in the root of Meshes folder.
+<hr style="border: 1px solid #44c0c9;">
 
-A Dynamic Mesh is put into its own folder because it has its own skeleton ({{< object "SK_Shenya_DYN_{something}_Skeleton" >}}) and its own animation blueprint ( {{< object "ABP_Shenya_DYN_{something}" >}} ). The folder is named {{< object "DNY_{something}" >}}.
-
-![Bones naming example](../img/dynamic-meshes/dymanic-meshes-content-folder.jpg)
-
-<div class="bones">
+For informations on dynamic meshes, please check out [its section in the Characters Common Sections](../general/dynamic-meshes.md)
 
 <br/>
+
+<div class="bones">
 
 ### Additional Bones for Dynamic Meshes
 
@@ -99,55 +96,3 @@ In the naming convention below, I will use this format: <sub>SC_01</sub><sup>(5)
 {{% /admonition %}}
 
 <br/>
-
-### KawaiiPhysics
-
-[KawaiiPhysics](https://github.com/pafuhana1213/KawaiiPhysics/) is simple fake Physics for UnrealEngine4 & 5.
-
-{{% admonition info "Youtube Video: Using KawaiiPhysics with Rabbit Heart Character Shenya" false %}}
-{{< youtube HkaO96Ox8yg >}}
-{{% /admonition %}}
-
-{{% admonition info "Anim Blueprint Nodes Paste" false %}}
-Shenya KawaiiPhysics Anim Blueprint Nodes Paste: <https://gist.github.com/miica37/1346661ab0e1d3ec942a19e687462c0e>
-{{% /admonition %}}
-
-To use Dynamic meshes with KawaiiPhysics:
-1. Add Plugin to project
-2. Add **DYN_Mesh** (eg. {{< object "SK_Shenya_DYN_Hair1" >}}) to a blueprint. Parent it under a mesh with the main skeleton.
-3. Open Animation blueprint for **DYN_Mesh** (eg. {{< object "ABP_Shenya_DYN_Hair1" >}}), add KawaiiPhysics nodes
-4. Compile and check if it works
-
-#### 1. Add Plugin to Project
-
-Go to [KawaiiPhysics Github Releases](https://github.com/pafuhana1213/KawaiiPhysics/releases) and download the version for your Unreal Engine Project. The latest release as of 17th October 2023 only have versions for UE5 and above. If you use UE4, you can scroll down for older version or you can try to recompile the code.
-
-![KawaiiPhysics Releases](../img/dynamic-meshes/kawaiiphysics-release.jpg)
-
-After download, open the zip file, drag the Plugins folder into your project root folder, and restart Unreal Engine.
-
-![Add KawaiiPhysics Plugin to project](../img/dynamic-meshes/add-kawaiiphysics-plugin-to-project.jpg)
-
-#### 2. Add DYN_Mesh to a Blueprint
-
-Example:
-
-![KawaiiPhysics Blueprint Example](../img/dynamic-meshes/kawaiiphysics-blueprint-example.jpg)
-
-#### 3. Add KawaiiPhysics Nodes to Animation Blueprint
-
-Open the Animation Blueprint
-
-![ABP DYN](../img/dynamic-meshes/dyn-abp.jpg)
-
-Example of the node graph:
-
-![ABP KawaiiPhysics Nodes](../img/dynamic-meshes/abp-kawaiiphysics-nodes.jpg)
-
-<br/>
-
-### SPCRJointDynamics
-
-[SPCRJointDynamics for UE4](https://github.com/SPARK-inc/SPCRJointDynamicsUE4) is "Real looking cloth physics engine for Unreal" (from their github description).
-
-I haven't tried using SPCRJointDynamics on Shenya but this plugin is specifically for cloths, where each joint chain can be linked to the one beside it so they constraint each other (compared to KawaiiPhysics where each joint chain are independent from each other and move independently), so you can try this on the Dynamic Jacket or the hairs.

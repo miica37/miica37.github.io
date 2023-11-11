@@ -18,7 +18,7 @@ Documentation is still working in progress (currently is having a very low prior
 
 
 {{% admonition warning "Old Documentation" false %}}
-The [Old Shenya documentation at readthedocs.org](https://unreal-shenya.readthedocs.io/en/latest/updates-log.html) is outdated and will soon be removed.
+The [Old Shenya documentation at readthedocs.org](https://unreal-shenya.readthedocs.io/en/latest/updates-log.html) is outdated and will eventually be removed.
 {{% /admonition %}}
 
 ---
