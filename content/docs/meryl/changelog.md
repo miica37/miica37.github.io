@@ -10,6 +10,12 @@ Change Log
 
 <hr style="border: 1px solid #44c0c9;">
 
+### Meryl 3.2.1
+
+`2023-11-22`
+
+ * Added source fbx files (Meryl > Source > fbx_files.7z)
+
 ### Meryl 3.2
 
 `2023-11-09`
