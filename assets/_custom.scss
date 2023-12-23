@@ -75,7 +75,8 @@ h1 {
   font-size: 1.5em;
 }
 
-.markdown h4 {
+.markdown h4,
+.markdown h5, {
   font-size: 1.2em;
 }
 
@@ -100,12 +101,59 @@ span.path {
   border-radius: 0.5em;
 }
 
+span.menupath {
+  font-family: monospace;
+  // background-color: #ffe894;
+  // color: #cc5544;
+  font-size: 0.9em;
+  font-weight: 900;
+  padding: 3px;
+  border: 1px solid #474747;
+  border-radius: 0.5em;
+}
+
 .markdown code {
   background-color: #445566;
   color: #fff;
   padding: 0.4em;
   // font-weight: bold;
 }
+
+.markdown table {
+  display: revert;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*`````````````````````````````
+    BOOK-PAGE
+`````````````````````````````*/
+// div.book-page {
+//   padding: 2rem 1rem;
+// }
+
+/*`````````````````````````````
+    SCROLL-BAR
+`````````````````````````````*/
+ /* width */
+ ::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ededee;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ededee;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #c7c7c7;
+} 
 
 /*`````````````````````````````
     Quote
@@ -342,7 +390,7 @@ input[type='checkbox'] {
 }
 
 .toggle:checked + .lbl-toggle + .collapsible-content {
-  max-height: 100vh;
+  max-height: 1000vh;
 }
 
 .toggle:checked + .lbl-toggle {
@@ -352,15 +400,6 @@ input[type='checkbox'] {
 
 .collapsible-content .content-inner {
   padding: .5rem 1rem;
-}
-
-.content-inner strong {
-  // color: hsla(0, 0%, 20%, 0.3);
-  display: block;
-  text-align: right;
-  font-weight: 300;
-  font-style: italic;
-  font-size: .8rem;
 }
 
 

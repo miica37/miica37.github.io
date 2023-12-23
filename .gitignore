@@ -6,3 +6,4 @@ exampleSite/public/
 *.psd
 *.001
 *.code-workspace
+**/gif-source/*
