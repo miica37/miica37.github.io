@@ -22,9 +22,9 @@ Change Log
 
 ![Retarget Poses Folder](../img/changelog/2023-12-28/retarget-poses-folder.jpg)
 
-See [Retarget Pose](../general/retarget-pose.md#for-rabbit-heart-characters)
+See the page [Retarget Pose](../general/retarget-pose.md#for-rabbit-heart-characters)
 
-Related video []
+See related video: [Unreal Engine 5 Animation Retargeting Demo - with Rabbit Heart Character Shenya](https://youtu.be/3EMOAtsn8aI)
 
 ### Shenya 3.0.2
 
