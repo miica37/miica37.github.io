@@ -10,6 +10,28 @@ Change Log
 
 <hr style="border: 1px solid #44c0c9;">
 
+### Shenya 3.0.3
+
+`2023-12-28`
+
+* Added Source Fbx files
+
+![Source Fbx Folder](../img/changelog/2023-12-28/source-fbx-folder.jpg)
+
+* Added Pose Asset for retargeting
+
+![Retarget Poses Folder](../img/changelog/2023-12-28/retarget-poses-folder.jpg)
+
+See [Retarget Pose](../general/retarget-pose.md#for-rabbit-heart-characters)
+
+Related video []
+
+### Shenya 3.0.2
+
+`2023-11-12`
+
+* Fixed some small mistakes in the head shape and head blendshapes
+
 ### Shenya 3.0.1
 
 `2023-10-31`

@@ -5,17 +5,13 @@ bookToc: true
 draft: false
 ---
 
-{{% admonition warning "WARNING: WORK IN PROGRESS" %}}
-I am still working on this page, please check back later. It should be ready by 31th December 2023.
-{{% /admonition %}}
-
 Retarget Pose
 =======================================
 
 <hr style="border: 1px solid #44c0c9;">
 
 {{% admonition tip "Related Official Documentation" %}}
-Unreal Engine Documentation on [Retarget Pose](https://docs.unrealengine.com/5.3/en-US/ik-rig-animation-retargeting-in-unreal-engine/#retargetpose) (contains references on creating and editing pose, importing and exporting poses, etc)
+Unreal Engine Documentation on [Retarget Pose](https://docs.unrealengine.com/5.3/en-US/ik-rig-animation-retargeting-in-unreal-engine/#retargetpose) (include useful references on creating and editing pose, importing and exporting poses, etc)
 {{% /admonition %}}
 
 #### Why you should care about retarget pose?
@@ -27,26 +23,41 @@ The **retarget pose** of the two characters should match closely, the more align
 ![A-Pose VS T-Pose](../img/retargeting/apose-vs-tpose.jpg)
 
 {{% admonition info "Advantages of T-Pose" %}}
-* You can make use of Mixamo's auto-rig to create T-Pose (save time ✔)
+* You can make use of [Mixamo](https://www.mixamo.com/)'s Auto Rigger to create T-Pose (save time ✔)
 * If you have to create the pose manually, it will be easier to align the limbs and fingers horizontally and vertically (using the front, side and top view and the grids to help you) (save time ✔)
 {{% /admonition %}}
 
 #### For Rabbit Heart Characters
-My current preferred way is this, if you have animations pack that use UE4 Mannequin, you can use A-Pose from my character to retarget. Any other animations including Mixamo animations, animation packs that use UE5 animations, or any other non-UE4 mannequin characters, ***I think*** it is better to use T-Pose, Not because of it will produce the best result but because of the time that you can save. The result between A-Pose and T-Pose depends on case by case basis and depends on how you construct the poses, the good thing is once you have those poses, you can switch the any of those poses with a dropdown and see the result instantly. UE5 makes it very easy to switch Pose.
+Both A-Pose and T-Pose will be provided for all Rabbit Heart characters (currently finish updating Shenya's, will be working on Meryl's and Lia's). You can find the retarget poses in the folder {{< path "CharacterName > RetargetPoses" >}}.
 
-Both A-Pose and T-Pose is provided for all Rabbit Heart characters. You can find them in the folder {{< path "Demo > Background_Assets > Animations > Poses" >}}.
+Example:
 
-{{% admonition note "When to use A-Pose or T-Pose? In Short:" %}}
-* UE4 animations: use A-Pose
-* Mixamo/UE5/other animations: use T-Pose
+![Retarget Poses Folder](../../shenya/img/changelog/2023-12-28/retarget-poses-folder.jpg)
+
+T-Pose Variations:
+
+![T-Pose Variations](../img/retargeting/tpose-variation.jpg)
+
+{{% admonition info "(Summary) When to use A-Pose or T-Pose?" %}}
+* UE4 animations: Use provided UE4 A-Pose
+* UE5 animations: Use provided UE5 A-Pose
+* Mixamo & Mixamo Rigged Characters: Use provided T-Pose (Straight version)
+* Other Animations: Use provided T-Pose, pick the T-Pose variation that looks the best
 {{% /admonition %}}
+
+#### Import Retarget Pose in Retargeter
+
+You can import those pose asset in the IK Retargeter.
+
+![Import Pose Asset](../img/retargeting/import-pose-asset.jpg)
 
 #### How to create T-Pose with Mixamo's Auto-Rigger
 
+{{% admonition type="note" title="Video Walkthrough" details="false" %}}
+In this section of the retargeting demo video ([jump to 16:47](https://www.youtube.com/watch?v=3EMOAtsn8aI&t=1007s)), you can see the process of uploading a character* to Mixamo website to rig and set it to TPose.
+
+*Paragon's Belica in this case
+{{< youtube 3EMOAtsn8aI >}}
+{{% /admonition %}}
+
 ![Mixamo Auto-Rigger Steps](../img/retargeting/mixamo-auto-rig-steps.webp)
-
-.......................
-
-#### Select Retarget Pose in Retargeter
-
-.......................
