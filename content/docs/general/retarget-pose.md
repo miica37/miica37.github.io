@@ -54,10 +54,10 @@ You can import those pose asset in the IK Retargeter.
 #### How to create T-Pose with Mixamo's Auto-Rigger
 
 {{% admonition type="note" title="Video Walkthrough" details="false" %}}
-In this section of the retargeting demo video ([jump to 16:47](https://www.youtube.com/watch?v=3EMOAtsn8aI&t=1007s)), you can see the process of uploading a character* to Mixamo website to rig and set it to TPose.
+In this section of the retargeting demo video ([jump to 16:47](https://www.youtube.com/watch?v=SrzN_egLZYk&t=1007s)), you can see the process of uploading a character* to Mixamo website to rig and set it to TPose.
 
 *Paragon's Belica in this case
-{{< youtube 3EMOAtsn8aI >}}
+{{< youtube SrzN_egLZYk >}}
 {{% /admonition %}}
 
 ![Mixamo Auto-Rigger Steps](../img/retargeting/mixamo-auto-rig-steps.webp)

@@ -24,7 +24,7 @@ Change Log
 
 See the page [Retarget Pose](../general/retarget-pose.md#for-rabbit-heart-characters)
 
-See related video: [Unreal Engine 5 Animation Retargeting Demo - with Rabbit Heart Character Shenya](https://youtu.be/3EMOAtsn8aI)
+See related video: [Unreal Engine 5 Animation Retargeting Demo - with Rabbit Heart Character Shenya](https://youtu.be/SrzN_egLZYk)
 
 ### Shenya 3.0.2
 
