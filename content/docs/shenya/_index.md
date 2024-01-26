@@ -8,9 +8,9 @@ draft: false
 Shenya Documentation
 ====================
 
-![Shenya Cover](img/Shenya-cover.jpg)
-
 <hr style="border: 1px solid #44c0c9;">
+
+<img class="character-cover shadow round" src="img/Shenya-cover.jpg" alt="Lia cover">
 
 {{% admonition note "Note" false %}}
 Documentation is still working in progress (currently is having a very low priority but I will try to spent more time on this)...

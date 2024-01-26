@@ -4,25 +4,30 @@ type: docs
 bookToc: false
 BookComments: false
 cards:
+- title: Aren
+  image: img/aren-cover2.png
+  link: /docs/aren/
+  ue: https://www.not-yet-available.com/
+  # newRelease: true
 - title: Shenya
   image: img/shenya-cover.jpg
   link: /docs/shenya/
-  ue: https://www.unrealengine.com/marketplace/slug/dd0822fc2ca84cbfb4c5eb72bb21d3b2
+  ue: https://www.unrealengine.com/marketplace/en-US/product/female-character-shenya
   # newRelease: true
 - title: Meryl
   image: img/meryl-cover.jpg
   link: /docs/meryl/
-  ue: https://www.unrealengine.com/marketplace/slug/9ebdb29eac814352a69fd894cecf3b8e
+  ue: https://www.unrealengine.com/marketplace/en-US/product/anime-girl-meryl
   # newUpdate: true
 - title: Lia
   image: img/lia-cover.jpg
   link: /docs/lia/
-  ue: https://www.google.com/
+  ue: https://www.unrealengine.com/marketplace/en-US/product/female-elf-ranger-character-lia
   #newRelease: true
 - title: Charles
   image: img/charles-cover.jpg
   link: /docs/charles/
-  ue: https://www.google.com/
+  ue: https://www.currently-unavailable.com/
 ---
 
 <!-- <div class="wrap-collabsible">

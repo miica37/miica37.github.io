@@ -10,15 +10,17 @@ Materials
 
 <hr style="border: 1px solid #44c0c9;">
 
-These are some of the materials. {{< object "MA_Generic" >}} and its variations (masked, tint and masked+tint) is commonly used for clothing.
+These are some of the materials. {{< object "MA_Generic" >}} and its variations (masked, tint and masked+tint) is commonly used for the clothing on the character.
 
 ![Materials diagram](../img/materials/materials-diagram.jpg)
 
 {{% admonition note "Naming Conventions" %}}
 
-"MA_" is the prefix of the names for master material. Master materials (besides MA_Transparent) are not meant to be used as it is and should be instanced.
+"<mark>MA_</mark>" is the prefix for <mark>**MA**ster Materials</mark>. Master materials <span class="smaller-font">(other than MA_Transparent*)</span> are not meant to be used as it is and should be instanced.
 
-"MI_" is the prefix of the names for instanced materials.
+"<mark>MI_</mark>" is the prefix for <mark>Instanced Materials</mark>.
+
+<div class="smaller-font">* You can use <b>MA_Transparent</b> to temporarily and quickly hide objects in the scene.</div>
 
 {{% /admonition %}}
 
@@ -44,17 +46,19 @@ The masking only works if the mesh has vertex colors (red, green or blue).
 
 ![Vertex Color Meshes](../img/materials/vertex-color-meshes.jpg)
 
-{{% admonition info "See the vertex color of the mesh with this material!" %}}
-There is a material called {{< object "MA_Vertex_Color_Display" >}} inside {{< path "Demo > Background_Assets > Materials" >}} that you can use to see the vertex color of a mesh.
+{{% admonition info "Display the vertex color of the mesh with this material!" %}}
+There is a material called {{< object "MA_Vertex_Color_Display" >}} in {{< path "Demo > Background_Assets > Materials" >}} that you can use directly to see the vertex color of a mesh.
 {{% /admonition %}}
 
-The Shadow parameter is too turn shadow on and off (Value 0.0 == Shadow Off, Value 1.0 == Shadow On. Can be either 1.0 or 0.0, not inbetween)
+#### Hide Shadows
+
+The Shadow parameter can be used to turn shadow on and off (Value <mark>0.0</mark> == Shadow <mark>Off</mark>, Value <mark>1.0</mark> == Shadow <mark>On</mark>. The value can only be either 1.0 or 0.0, values in between doesn't work unfortunately)
 
 ![Shadow Parameter](../img/materials/shadow-parameter.jpg)
 
 ![Hat Shadow On/Off](../img/materials/hat-shadow-on-off.webp)
 
-{{% admonition warning "It will also affect ground shadow!" %}}
+{{% admonition warning "Be aware! It will also affect ground shadow!" %}}
 ![Ground Shadow On/Off](../img/materials/ground-shadow-on-off.webp)
 {{% /admonition %}}
 
@@ -85,7 +89,7 @@ This material uses the provided RGB map to tint different areas with different c
 ![RGB Tint Texture](../img/materials/rgb-tint-texture.jpg)
 
 {{% admonition note "Uses of T_Uniform_RGB" %}}
-In cases where the RGB map is not provided, like for the skirt (or the gloves) for example, you can use {{< object "T_Uniform_RGB" >}} map to tint the whole mesh. *You can also use it for the hairs*.
+In cases where the RGB map is not provided, like for the skirt (or the gloves) for example, you can use {{< object "T_Uniform_RGB" >}} map to tint the whole mesh. *You can also use it for Meryl hairs*.
 ![Skirt Highlight](../img/materials/skirt-highlight.jpg)
 
 ![Uniform RGB Map](../img/materials/uniform-rgb-map.jpg)

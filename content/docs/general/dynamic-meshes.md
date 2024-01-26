@@ -34,7 +34,15 @@ A typical skeleton for hair looks like the following, which is Shenya's Hair1's 
 ![shenya-hair1-skeleton-list](../img/dynamic-meshes/shenya-hair1-skeleton-list.jpg)
 {{% /admonition %}}
 
-The skeleton has the bone chain from the **root** up until the head, then the additional bones for the hairs are created and attached to the head. Notice that the arms and legs joints are deleted because whatever they do they won't affect the hairs skeleton. The spine chain need to be there because it's linked to the hairs skeleton and I am using {{< object "Copy Pose from Mesh" >}} in the animation blueprint.
+The skeleton has the bone chain from the **root** up until the head, then the additional bones for the hairs are attached to the head. Notice that the arms and legs bones are deleted because whatever they do they don't affect the hairs skeleton.
+
+The spine chain need to be there because it's linked to the hairs skeleton and I am using {{< object "Copy Pose from Mesh" >}} in the animation blueprint.
+
+{{% admonition note "There are no Physics Assets" %}}
+All* the dynamic meshes doesn't comes with physics asset because they don't look good most of the time with physics asset. They are intened to work with KawaiiPhysics but you can also setup physics asset on these skeletal meshes on your own if needed.
+
+<div class="smaller-font">* with some exceptions, for example Aren's Earring comes with Physics Assets setup.</div>
+{{% /admonition %}}
 
 You can use Dynamic meshes with KawaiiPhysics or SPCRJointDynamics.
 
@@ -87,6 +95,16 @@ After download, open the zip file, drag the Plugins folder into your project roo
 Example:
 
 ![KawaiiPhysics Blueprint Example](../img/dynamic-meshes/kawaiiphysics-blueprint-example.jpg)
+
+{{% admonition warning "Leader Pose Component in Modular Blueprint Setup" %}}
+If you setup your modular blueprint with **Leader Pose Component** (like in the picture below), remember to ***NOT*** include DYN meshes because we want the additional bones to be driven by <mark>animation blueprint</mark> instead. If you use leader pose component on the mesh, those bones will not move because the leader (the head or the main skeleton in this case) doesn't has those additional joints.
+
+![Don't plug or unplug DYN meshes to leader pose component](../img/dynamic-meshes/leader-pose-component-no.jpg)
+
+If you use the DYN meshes inside a child blueprint, unset the leader pose component like so:
+
+![Unset Leader Pose Component](../img/dynamic-meshes/unset-leader-pose-component.jpg)
+{{% /admonition %}}
 
 #### 3. Add KawaiiPhysics Nodes to Animation Blueprint
 

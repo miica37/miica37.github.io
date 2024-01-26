@@ -18,8 +18,8 @@ For informations on dynamic meshes, please check out [its section in the Charact
 
 ### Additional Bones for Dynamic Meshes
 
-{{% admonition note "Bone? Joint?" %}}
-I am using the term "bone" and "joint" interchangeably. In Maya, it's "joint", in Unreal Engine it's "bone". I will try use "bone" whenever I can but sometimes it got mixed up with "joint".
+{{% admonition note "Bone? Joint? They are the same" %}}
+I am using the term "bone" and "joint" interchangeably. In Maya, these things are called "joints", but in Unreal Engine they are called "bones". I will try use the term "bone" whenever I can for consistency but sometimes I spelled 'joint' out of old habit.
 {{% /admonition %}}
 
 {{% admonition info "Naming Conventions" false %}}

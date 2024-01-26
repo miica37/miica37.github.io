@@ -48,6 +48,9 @@ A window will pop up for you to select the target character and output destinati
 {{% admonition type="note" title="Video Walkthrough" details="false" %}}
 Check out this video to see the retargeting process for Shenya in UE5 (this video should also applies to other Rabbit Heart characters).
 {{< youtube SrzN_egLZYk >}}
+
+Part 2 (An update to video above)
+{{< youtube X6ur4suLaAo >}}
 {{% /admonition %}}
 
 <br/>
