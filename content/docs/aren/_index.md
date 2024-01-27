@@ -16,12 +16,10 @@ Aren Documentation
 Documentation is still working in progress (currently is having a very low priority but I will try to spent more time on this)...
 {{% /admonition %}}
 
-{{% admonition type="info" title="Youtube Videos" details="true" %}}
-{{< youtube OfM1V1eI1jI >}}
+{{% admonition type="info" title="Youtube Videos" details="false" %}}
+{{< youtube WbG93p-86YI >}}
 <br/>
-{{< youtube nUcbepp6P_k >}}
-<br/>
-{{< youtube HkaO96Ox8yg >}}
+{{< youtube r53O1MxDDnU >}}
 {{% /admonition %}}
 
 <br/>
