@@ -7,7 +7,7 @@ cards:
 - title: Aren
   image: img/aren-cover2.png
   link: /docs/aren/
-  ue: https://www.not-yet-available.com/
+  ue: https://www.unrealengine.com/marketplace/en-US/product/male-elf-ranger-character-aren
   # newRelease: true
 - title: Shenya
   image: img/shenya-cover.jpg
