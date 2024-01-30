@@ -5,13 +5,11 @@ bookToc: true
 draft: false
 ---
 
-<br/>
+Dynamic Meshes
+=======================================
 
 <hr style="border: 1px solid #44c0c9;">
 
-
-Dynamic Meshes
---------------------
 Dynamic Meshes are meshes that are added with additional bones for the purpose of using the bones for dynamic simulations (either with physics assets, Anim Dynamics node, or by plugins like [KawaiiPhysics](https://github.com/pafuhana1213/KawaiiPhysics/)). They do not share the main Shenya skeleton that is in the root of Meshes folder.
 
 A Dynamic Mesh is put into its own folder because it has its own skeleton ({{< object "SK_Shenya_DYN_{Hair1}_Skeleton" >}}) and its own animation blueprint ( {{< object "ABP_Shenya_DYN_{Hair1}" >}} ).

@@ -10,7 +10,11 @@ draft: false
 
 <hr style="border: 1px solid #44c0c9;">
 
+<div class="common-features">
+
 ## Common Features
+
+</div>
 
 <div class="div-table">
    <!-- <div class="trow">
@@ -29,9 +33,9 @@ draft: false
       <div class="tcolumn value2"></div>
    </div>
    <div class="trow">
-      <div class="tcolumn key">Fbx</div>
+      <div class="tcolumn key">Source Fbx</div>
       <div class="tcolumn value1">Included</div>
-      <div class="tcolumn value2"></div>
+      <div class="tcolumn value2">You can find the source fbx files in the <br/> {{< path "Source > Fbx" >}} folder</div>
    </div>
    <div class="trow">
       <div class="tcolumn key">Change Material Color</div>
@@ -62,6 +66,8 @@ draft: false
       </div>
    </div>
 </div>
+
+<br/>
 
 ## Character's Skeleton
 
@@ -101,6 +107,7 @@ By the way, I created some videos that might be helpful to you when you need to 
 
 {{% /admonition %}}
 
+<br/>
 
 ## Character's Updates
 

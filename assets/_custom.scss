@@ -55,11 +55,12 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 2.7em;
-  padding-top: 1em;
+  color: var(--HERO-COLOR);
+  font-size: 3em;
+  font-family: lato,roboto,sans-serif;
+  padding-top: 0.4em;
 }
 
-.markdown h1,
 .markdown h2,
 .markdown h3,
 .markdown h4 {
@@ -67,8 +68,20 @@ h1 {
   // font-family: Roboto Slab,ff-tisa-web-pro,Georgia,Arial,sans-serif;
 }
 
+.markdown h1 {
+  font-weight: 100;
+}
+
 .markdown h2 {
   font-size: 2em;
+}
+
+.markdown div.common-features h2 {
+  color: var(--HERO-COLOR);
+  font-size: 5em;
+  font-weight: 400;
+  font-family: apalu,lato,roboto,sans-serif;
+  text-align: center;
 }
 
 .markdown h3 {

@@ -10,11 +10,21 @@ Change Log
 
 <hr style="border: 1px solid #44c0c9;">
 
+
+### Meryl 3.3
+
+`2024-01-30`
+
+* Added Retarget Poses
+
+![Retarget Poses Folder](../img/changelog/2024-01-30/retarget-poses-folder.png)
+
+
 ### Meryl 3.2.1
 
 `2023-11-22`
 
- * Added source fbx files (Meryl > Source > fbx_files.7z)
+ * Added source fbx files. {{< path "Meryl > Source" >}}
 
 ### Meryl 3.2
 
