@@ -12,6 +12,6 @@ Change Log
 
 ### Aren 1.0
 
-`2024-0?-??`
+`2024-01-30`
 
 First Release
