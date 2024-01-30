@@ -12,6 +12,8 @@ Change Log
 
 ### Lia 1.1
 
+`2024-01-30`
+
 * {{< warning "⚠" >}} Fixed naming for skeleton and physics assets. Renamed all skeleton to "{{< object "SKM_*" >}}" and all physics assets to "{{< object "PA_*" >}}".
   
   <span class="smaller-font">(Previously they are named "{{< object "*_Skeleton" >}}" and "{{< object "*_PhysicsAsset" >}}")</span>
