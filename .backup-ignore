@@ -1,0 +1,13 @@
+.git
+.svelte-kit
+build
+image-source
+node_modules
+static
+
+*thumbs.db
+*.psd
+.backup-ignore
+
+src/pages/images
+src/pages/.obsidian
