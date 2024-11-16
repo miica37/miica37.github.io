@@ -1,0 +1,1 @@
+import{a as t,t as l}from"./disclose-version.Cw5STcOZ.js";import"./legacy.C5B73D_8.js";var i=l("<ul><li>11-13-2024 - RIn.Rename</li> <li>10-20-2024 – Website Revamped</li></ul>");function o(a){var e=i();t(a,e)}export{o as default};
