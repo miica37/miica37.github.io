@@ -1,1 +1,0 @@
-import{a as o,t as a}from"./CIhVi2Ea.js";import"./BjzNE2Ez.js";import{f as p,x as i}from"./BCsfgj-G.js";/* empty css        *//* empty css        */import{H as m}from"./BH_kk9kT.js";var n=a("<!> <p><code>2024-01-30</code></p> <p>First Release</p>",1);function v(r){var e=n(),t=p(e);m(t,{title:"Aren 1.0",level:"3",bold:1}),i(4),o(r,e)}export{v as default};
