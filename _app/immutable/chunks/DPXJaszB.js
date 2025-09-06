@@ -1,1 +1,0 @@
-import{e as c,E as s,j as i,h as r,n as h,k as p,v as d}from"./BCsfgj-G.js";function u(t,f,o){r&&h();var n=t,a,e;c(()=>{a!==(a=f())&&(e&&(p(e),e=null),a&&(e=i(()=>o(n,a))))},s),r&&(n=d)}export{u as c};
