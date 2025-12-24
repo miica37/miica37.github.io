@@ -1,1 +1,0 @@
-import"./nBBkTPxA.js";import"./B7PC4sJd.js";import{a as i,c as t}from"./C-aWTcBH.js";var l=t("<ul><li>Next: Working on updating existing characters…</li> <li>14-03-2025 - RIn.Rename (First Release)</li> <li>11-13-2024 - RIn.Rename (Beta)</li> <li>10-20-2024 – Website Revamped</li></ul>");function p(e){var a=l();i(e,a)}export{p as default};
