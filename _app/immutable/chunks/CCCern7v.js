@@ -1,1 +1,0 @@
-import"./Bg9kRutz.js";import"./xYythshX.js";import{g as t,a as r,c as i,K as p}from"./Bt62qNh5.js";/* empty css        *//* empty css        */import{H as m}from"./BdUCOqWG.js";var l=i("<!> <p><code>2025-10-15</code></p> <p>First Release</p>",1);function h(a){var e=l(),o=t(e);m(o,{title:"ShaoLei 1.0",level:"3",bold:1}),p(4),r(a,e)}export{h as default};
