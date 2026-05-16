@@ -1,0 +1,1 @@
+import{n as e}from"../chunks/z65lrFUk.js";import{E as t,O as n}from"../chunks/CA3NvG6V.js";import"../chunks/D9FQP20W.js";import"../chunks/BaBO_IyH.js";import{n as r}from"../chunks/BR7MZ4bC2.js";var i=e({load:()=>a,prerender:()=>!0});function a(){throw r(307,`/news/`)}var o=n(`<p>Redirecting to news archive...</p>`);function s(e){t(e,o())}export{s as component,i as universal};
