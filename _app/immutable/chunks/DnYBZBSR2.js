@@ -1,1 +1,0 @@
-import{D as e,T as t,W as n,ot as r}from"./Bk7ufxj9.js";import"./D9FQP20W.js";import"./Dc4zFBgq.js";import"./CFC7ZT3k.js";import{t as i}from"./t2o-K1-g.js";import"./C43Jenm8.js";var a=e(`<!> <p><code>2026-01-26</code></p> <p>First Release</p>`,1);function o(e){var o=a();i(n(o),{title:`Sapphire 1.0`,level:`3`,bold:1}),r(4),t(e,o)}export{o as default};
