@@ -1,1 +1,1 @@
-export const env={"PUBLIC_ASSET_BASE_URL":"https://miica37.github.io"}
+export const env={"PUBLIC_ASSET_BASE_URL":"https://miica37-assets.pages.dev"}
