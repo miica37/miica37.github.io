@@ -129,9 +129,8 @@ asset_content_browser:
   manifest: /web-export/characters/shenya2/manifest.json
   thumbnailBase: /web-export/characters/shenya2
   rootPath: /Game/Shenya2
-fab_link: https://www.fab.com/listings/9f51f81e-6310-4f54-9cf6-1c63edec884f
-artstation_link: https://www.artstation.com/artwork/6LGqrO
-gumroad_link: https://rabbitheart.gumroad.com/l/shenya
+fab_link: https://www.fab.com/listings/16c84022-3b99-45c7-a304-d71c25076e65
+gumroad_link: https://rabbitheart.gumroad.com/l/shenya2
 ---
 
 <script>
