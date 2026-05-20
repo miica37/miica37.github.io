@@ -1,0 +1,1 @@
+import{n as e}from"../chunks/BrYEINiT.js";import{D as t,k as n}from"../chunks/DMaWTBih.js";import"../chunks/CP97kCR3.js";import"../chunks/BQRUsNfT.js";import{n as r}from"../chunks/B-Ru4cxc2.js";var i=e({load:()=>a,prerender:()=>!0});function a(){throw r(307,`/docs/`)}var o=n(`<p>Redirecting to documentation...</p>`);function s(e){t(e,o())}export{s as component,i as universal};

@@ -1,0 +1,1 @@
+import{n as e}from"../chunks/BrYEINiT.js";import{n as t}from"../chunks/B-Ru4cxc2.js";var n=e({load:()=>r,prerender:()=>!0});function r(){throw t(307,`/blog/`)}export{n as universal};
