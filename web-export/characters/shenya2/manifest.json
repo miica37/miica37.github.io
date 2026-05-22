@@ -900,7 +900,7 @@
           "classLabel": "PoseAsset",
           "path": "/Game/Shenya2/Demo/Pose_Driver_Poses/PA_Shenya_Thigh",
           "objectPath": "/Game/Shenya2/Demo/Pose_Driver_Poses/PA_Shenya_Thigh.PA_Shenya_Thigh",
-          "thumbnail": "thumbnails/Shenya2/Demo/Pose_Driver_Poses/PA_Shenya_Thigh.png"
+          "thumbnail": null
         },
         {
           "name": "PA_Shenya_Thigh_L",
@@ -908,7 +908,7 @@
           "classLabel": "PoseAsset",
           "path": "/Game/Shenya2/Demo/Pose_Driver_Poses/PA_Shenya_Thigh_L",
           "objectPath": "/Game/Shenya2/Demo/Pose_Driver_Poses/PA_Shenya_Thigh_L.PA_Shenya_Thigh_L",
-          "thumbnail": "thumbnails/Shenya2/Demo/Pose_Driver_Poses/PA_Shenya_Thigh_L.png"
+          "thumbnail": null
         },
         {
           "name": "PA_Shenya_Thigh_R",
@@ -916,7 +916,7 @@
           "classLabel": "PoseAsset",
           "path": "/Game/Shenya2/Demo/Pose_Driver_Poses/PA_Shenya_Thigh_R",
           "objectPath": "/Game/Shenya2/Demo/Pose_Driver_Poses/PA_Shenya_Thigh_R.PA_Shenya_Thigh_R",
-          "thumbnail": "thumbnails/Shenya2/Demo/Pose_Driver_Poses/PA_Shenya_Thigh_R.png"
+          "thumbnail": null
         },
         {
           "name": "PA_Shenya_Wrist",
@@ -924,7 +924,7 @@
           "classLabel": "PoseAsset",
           "path": "/Game/Shenya2/Demo/Pose_Driver_Poses/PA_Shenya_Wrist",
           "objectPath": "/Game/Shenya2/Demo/Pose_Driver_Poses/PA_Shenya_Wrist.PA_Shenya_Wrist",
-          "thumbnail": "thumbnails/Shenya2/Demo/Pose_Driver_Poses/PA_Shenya_Wrist.png"
+          "thumbnail": null
         },
         {
           "name": "PA_Shenya_Wrist_L",
@@ -932,7 +932,7 @@
           "classLabel": "PoseAsset",
           "path": "/Game/Shenya2/Demo/Pose_Driver_Poses/PA_Shenya_Wrist_L",
           "objectPath": "/Game/Shenya2/Demo/Pose_Driver_Poses/PA_Shenya_Wrist_L.PA_Shenya_Wrist_L",
-          "thumbnail": "thumbnails/Shenya2/Demo/Pose_Driver_Poses/PA_Shenya_Wrist_L.png"
+          "thumbnail": null
         },
         {
           "name": "PA_Shenya_Wrist_R",
@@ -940,7 +940,7 @@
           "classLabel": "PoseAsset",
           "path": "/Game/Shenya2/Demo/Pose_Driver_Poses/PA_Shenya_Wrist_R",
           "objectPath": "/Game/Shenya2/Demo/Pose_Driver_Poses/PA_Shenya_Wrist_R.PA_Shenya_Wrist_R",
-          "thumbnail": "thumbnails/Shenya2/Demo/Pose_Driver_Poses/PA_Shenya_Wrist_R.png"
+          "thumbnail": null
         }
       ]
     },
@@ -961,7 +961,7 @@
           "classLabel": "PoseAsset",
           "path": "/Game/Shenya2/Demo/Retarget_Poses/Shenya_ActorCore_APose",
           "objectPath": "/Game/Shenya2/Demo/Retarget_Poses/Shenya_ActorCore_APose.Shenya_ActorCore_APose",
-          "thumbnail": "thumbnails/Shenya2/Demo/Retarget_Poses/Shenya_ActorCore_APose.png"
+          "thumbnail": null
         },
         {
           "name": "Shenya_ALS_APose",
@@ -969,7 +969,7 @@
           "classLabel": "PoseAsset",
           "path": "/Game/Shenya2/Demo/Retarget_Poses/Shenya_ALS_APose",
           "objectPath": "/Game/Shenya2/Demo/Retarget_Poses/Shenya_ALS_APose.Shenya_ALS_APose",
-          "thumbnail": "thumbnails/Shenya2/Demo/Retarget_Poses/Shenya_ALS_APose.png"
+          "thumbnail": null
         },
         {
           "name": "Shenya_TPose_Halfway",
@@ -977,7 +977,7 @@
           "classLabel": "PoseAsset",
           "path": "/Game/Shenya2/Demo/Retarget_Poses/Shenya_TPose_Halfway",
           "objectPath": "/Game/Shenya2/Demo/Retarget_Poses/Shenya_TPose_Halfway.Shenya_TPose_Halfway",
-          "thumbnail": "thumbnails/Shenya2/Demo/Retarget_Poses/Shenya_TPose_Halfway.png"
+          "thumbnail": null
         },
         {
           "name": "Shenya_TPose_ShoulderDown",
@@ -985,7 +985,7 @@
           "classLabel": "PoseAsset",
           "path": "/Game/Shenya2/Demo/Retarget_Poses/Shenya_TPose_ShoulderDown",
           "objectPath": "/Game/Shenya2/Demo/Retarget_Poses/Shenya_TPose_ShoulderDown.Shenya_TPose_ShoulderDown",
-          "thumbnail": "thumbnails/Shenya2/Demo/Retarget_Poses/Shenya_TPose_ShoulderDown.png"
+          "thumbnail": null
         },
         {
           "name": "Shenya_TPose_Straight",
@@ -993,7 +993,7 @@
           "classLabel": "PoseAsset",
           "path": "/Game/Shenya2/Demo/Retarget_Poses/Shenya_TPose_Straight",
           "objectPath": "/Game/Shenya2/Demo/Retarget_Poses/Shenya_TPose_Straight.Shenya_TPose_Straight",
-          "thumbnail": "thumbnails/Shenya2/Demo/Retarget_Poses/Shenya_TPose_Straight.png"
+          "thumbnail": null
         },
         {
           "name": "Shenya_UE4_APose",
@@ -1001,7 +1001,7 @@
           "classLabel": "PoseAsset",
           "path": "/Game/Shenya2/Demo/Retarget_Poses/Shenya_UE4_APose",
           "objectPath": "/Game/Shenya2/Demo/Retarget_Poses/Shenya_UE4_APose.Shenya_UE4_APose",
-          "thumbnail": "thumbnails/Shenya2/Demo/Retarget_Poses/Shenya_UE4_APose.png"
+          "thumbnail": null
         },
         {
           "name": "Shenya_UE5_APose",
@@ -1009,7 +1009,7 @@
           "classLabel": "PoseAsset",
           "path": "/Game/Shenya2/Demo/Retarget_Poses/Shenya_UE5_APose",
           "objectPath": "/Game/Shenya2/Demo/Retarget_Poses/Shenya_UE5_APose.Shenya_UE5_APose",
-          "thumbnail": "thumbnails/Shenya2/Demo/Retarget_Poses/Shenya_UE5_APose.png"
+          "thumbnail": null
         },
         {
           "name": "Shenya_UEFN_APose",
@@ -1017,7 +1017,7 @@
           "classLabel": "PoseAsset",
           "path": "/Game/Shenya2/Demo/Retarget_Poses/Shenya_UEFN_APose",
           "objectPath": "/Game/Shenya2/Demo/Retarget_Poses/Shenya_UEFN_APose.Shenya_UEFN_APose",
-          "thumbnail": "thumbnails/Shenya2/Demo/Retarget_Poses/Shenya_UEFN_APose.png"
+          "thumbnail": null
         }
       ]
     },
@@ -1030,7 +1030,7 @@
           "classLabel": "World",
           "path": "/Game/Shenya2/Maps/Shenya_Preview",
           "objectPath": "/Game/Shenya2/Maps/Shenya_Preview.Shenya_Preview",
-          "thumbnail": "thumbnails/Shenya2/Maps/Shenya_Preview.png"
+          "thumbnail": null
         },
         {
           "name": "Shenya_Preview_BuiltData",
@@ -1038,7 +1038,7 @@
           "classLabel": "MapBuildDataRegistry",
           "path": "/Game/Shenya2/Maps/Shenya_Preview_BuiltData",
           "objectPath": "/Game/Shenya2/Maps/Shenya_Preview_BuiltData.Shenya_Preview_BuiltData",
-          "thumbnail": "thumbnails/Shenya2/Maps/Shenya_Preview_BuiltData.png"
+          "thumbnail": null
         }
       ]
     },
@@ -3071,7 +3071,7 @@
           "classLabel": "SubsurfaceProfile",
           "path": "/Game/Shenya2/Materials/SSS_Profiles/SSS_Profile_Shenya",
           "objectPath": "/Game/Shenya2/Materials/SSS_Profiles/SSS_Profile_Shenya.SSS_Profile_Shenya",
-          "thumbnail": "thumbnails/Shenya2/Materials/SSS_Profiles/SSS_Profile_Shenya.png"
+          "thumbnail": null
         },
         {
           "name": "SSS_Profile_Shenya2",
@@ -3079,7 +3079,7 @@
           "classLabel": "SubsurfaceProfile",
           "path": "/Game/Shenya2/Materials/SSS_Profiles/SSS_Profile_Shenya2",
           "objectPath": "/Game/Shenya2/Materials/SSS_Profiles/SSS_Profile_Shenya2.SSS_Profile_Shenya2",
-          "thumbnail": "thumbnails/Shenya2/Materials/SSS_Profiles/SSS_Profile_Shenya2.png"
+          "thumbnail": null
         }
       ]
     },
@@ -3579,23 +3579,94 @@
       ]
     },
     "/Game/Shenya2/Meshes/Body/FPS_Arm": {
-      "children": [],
+      "children": [
+        "/Game/Shenya2/Meshes/Body/FPS_Arm/FPS_Clothes"
+      ],
       "assets": [
         {
           "name": "SK_Shenya_Arms",
-          "class": "SkeletalMesh",
-          "classLabel": "Skeletal Mesh",
+          "class": "ObjectRedirector",
+          "classLabel": "ObjectRedirector",
           "path": "/Game/Shenya2/Meshes/Body/FPS_Arm/SK_Shenya_Arms",
           "objectPath": "/Game/Shenya2/Meshes/Body/FPS_Arm/SK_Shenya_Arms.SK_Shenya_Arms",
           "thumbnail": "thumbnails/Shenya2/Meshes/Body/FPS_Arm/SK_Shenya_Arms.png"
         },
         {
-          "name": "SK_Shenya_Arms_Skeleton",
+          "name": "SK_Shenya_FPS_Arms",
+          "class": "SkeletalMesh",
+          "classLabel": "Skeletal Mesh",
+          "path": "/Game/Shenya2/Meshes/Body/FPS_Arm/SK_Shenya_FPS_Arms",
+          "objectPath": "/Game/Shenya2/Meshes/Body/FPS_Arm/SK_Shenya_FPS_Arms.SK_Shenya_FPS_Arms",
+          "thumbnail": "thumbnails/Shenya2/Meshes/Body/FPS_Arm/SK_Shenya_FPS_Arms.png"
+        },
+        {
+          "name": "UE5_Manny_Skeleton",
           "class": "Skeleton",
           "classLabel": "Skeleton",
-          "path": "/Game/Shenya2/Meshes/Body/FPS_Arm/SK_Shenya_Arms_Skeleton",
-          "objectPath": "/Game/Shenya2/Meshes/Body/FPS_Arm/SK_Shenya_Arms_Skeleton.SK_Shenya_Arms_Skeleton",
-          "thumbnail": "thumbnails/Shenya2/Meshes/Body/FPS_Arm/SK_Shenya_Arms_Skeleton.png"
+          "path": "/Game/Shenya2/Meshes/Body/FPS_Arm/UE5_Manny_Skeleton",
+          "objectPath": "/Game/Shenya2/Meshes/Body/FPS_Arm/UE5_Manny_Skeleton.UE5_Manny_Skeleton",
+          "thumbnail": "thumbnails/Shenya2/Meshes/Body/FPS_Arm/UE5_Manny_Skeleton.png"
+        }
+      ]
+    },
+    "/Game/Shenya2/Meshes/Body/FPS_Arm/FPS_Clothes": {
+      "children": [],
+      "assets": [
+        {
+          "name": "SK_Shenya_FPS_Accessory_Bracelet",
+          "class": "SkeletalMesh",
+          "classLabel": "Skeletal Mesh",
+          "path": "/Game/Shenya2/Meshes/Body/FPS_Arm/FPS_Clothes/SK_Shenya_FPS_Accessory_Bracelet",
+          "objectPath": "/Game/Shenya2/Meshes/Body/FPS_Arm/FPS_Clothes/SK_Shenya_FPS_Accessory_Bracelet.SK_Shenya_FPS_Accessory_Bracelet",
+          "thumbnail": "thumbnails/Shenya2/Meshes/Body/FPS_Arm/FPS_Clothes/SK_Shenya_FPS_Accessory_Bracelet.png"
+        },
+        {
+          "name": "SK_Shenya_FPS_Blouse",
+          "class": "SkeletalMesh",
+          "classLabel": "Skeletal Mesh",
+          "path": "/Game/Shenya2/Meshes/Body/FPS_Arm/FPS_Clothes/SK_Shenya_FPS_Blouse",
+          "objectPath": "/Game/Shenya2/Meshes/Body/FPS_Arm/FPS_Clothes/SK_Shenya_FPS_Blouse.SK_Shenya_FPS_Blouse",
+          "thumbnail": "thumbnails/Shenya2/Meshes/Body/FPS_Arm/FPS_Clothes/SK_Shenya_FPS_Blouse.png"
+        },
+        {
+          "name": "SK_Shenya_FPS_Buttonup",
+          "class": "SkeletalMesh",
+          "classLabel": "Skeletal Mesh",
+          "path": "/Game/Shenya2/Meshes/Body/FPS_Arm/FPS_Clothes/SK_Shenya_FPS_Buttonup",
+          "objectPath": "/Game/Shenya2/Meshes/Body/FPS_Arm/FPS_Clothes/SK_Shenya_FPS_Buttonup.SK_Shenya_FPS_Buttonup",
+          "thumbnail": "thumbnails/Shenya2/Meshes/Body/FPS_Arm/FPS_Clothes/SK_Shenya_FPS_Buttonup.png"
+        },
+        {
+          "name": "SK_Shenya_FPS_Hoodie_Jacket",
+          "class": "SkeletalMesh",
+          "classLabel": "Skeletal Mesh",
+          "path": "/Game/Shenya2/Meshes/Body/FPS_Arm/FPS_Clothes/SK_Shenya_FPS_Hoodie_Jacket",
+          "objectPath": "/Game/Shenya2/Meshes/Body/FPS_Arm/FPS_Clothes/SK_Shenya_FPS_Hoodie_Jacket.SK_Shenya_FPS_Hoodie_Jacket",
+          "thumbnail": "thumbnails/Shenya2/Meshes/Body/FPS_Arm/FPS_Clothes/SK_Shenya_FPS_Hoodie_Jacket.png"
+        },
+        {
+          "name": "SK_Shenya_FPS_Jacket",
+          "class": "SkeletalMesh",
+          "classLabel": "Skeletal Mesh",
+          "path": "/Game/Shenya2/Meshes/Body/FPS_Arm/FPS_Clothes/SK_Shenya_FPS_Jacket",
+          "objectPath": "/Game/Shenya2/Meshes/Body/FPS_Arm/FPS_Clothes/SK_Shenya_FPS_Jacket.SK_Shenya_FPS_Jacket",
+          "thumbnail": "thumbnails/Shenya2/Meshes/Body/FPS_Arm/FPS_Clothes/SK_Shenya_FPS_Jacket.png"
+        },
+        {
+          "name": "SK_Shenya_FPS_Knitshirt",
+          "class": "SkeletalMesh",
+          "classLabel": "Skeletal Mesh",
+          "path": "/Game/Shenya2/Meshes/Body/FPS_Arm/FPS_Clothes/SK_Shenya_FPS_Knitshirt",
+          "objectPath": "/Game/Shenya2/Meshes/Body/FPS_Arm/FPS_Clothes/SK_Shenya_FPS_Knitshirt.SK_Shenya_FPS_Knitshirt",
+          "thumbnail": "thumbnails/Shenya2/Meshes/Body/FPS_Arm/FPS_Clothes/SK_Shenya_FPS_Knitshirt.png"
+        },
+        {
+          "name": "SK_Shenya_FPS_Tshirt",
+          "class": "SkeletalMesh",
+          "classLabel": "Skeletal Mesh",
+          "path": "/Game/Shenya2/Meshes/Body/FPS_Arm/FPS_Clothes/SK_Shenya_FPS_Tshirt",
+          "objectPath": "/Game/Shenya2/Meshes/Body/FPS_Arm/FPS_Clothes/SK_Shenya_FPS_Tshirt.SK_Shenya_FPS_Tshirt",
+          "thumbnail": "thumbnails/Shenya2/Meshes/Body/FPS_Arm/FPS_Clothes/SK_Shenya_FPS_Tshirt.png"
         }
       ]
     },
@@ -6076,14 +6147,6 @@
           "path": "/Game/Shenya2/Textures/Body/T_Shenya_Body_D",
           "objectPath": "/Game/Shenya2/Textures/Body/T_Shenya_Body_D.T_Shenya_Body_D",
           "thumbnail": "thumbnails/Shenya2/Textures/Body/T_Shenya_Body_D.png"
-        },
-        {
-          "name": "T_Shenya_Body_D0",
-          "class": "Texture2D",
-          "classLabel": "Texture",
-          "path": "/Game/Shenya2/Textures/Body/T_Shenya_Body_D0",
-          "objectPath": "/Game/Shenya2/Textures/Body/T_Shenya_Body_D0.T_Shenya_Body_D0",
-          "thumbnail": "thumbnails/Shenya2/Textures/Body/T_Shenya_Body_D0.png"
         },
         {
           "name": "T_Shenya_Body_N",
